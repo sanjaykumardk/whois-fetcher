@@ -40,5 +40,5 @@ sudo dnf install nautilus  # Or apt install nautilus on Debian/Ubuntu
 ```
 ## 💻 Run Command
 ```
-python3 whois_interactive_gui.py
+python3 whois_gui.py
 ```
