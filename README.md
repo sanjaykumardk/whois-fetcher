@@ -13,7 +13,15 @@ The application uses **threading** to ensure the GUI remains responsive while th
 * **Cross-Platform:** Designed to work across Windows, macOS, and Linux.
 
 ---
-
+## 📂 Project Structure
+```
+whois-fetcher/
+├── whois_interactive_gui.py  # The main Python script (GUI)
+├── requirements.txt           # Required Python packages
+├── output/
+│   └── individual_results/    # Folder containing all individual domain CSV files
+└── README.md
+```
 ## ⚙️ Installation
 
 ### 1. Prerequisites
@@ -27,3 +35,10 @@ Navigate to the project directory and install the required Python libraries usin
 ```bash
 cd whois-fetcher/
 pip install -r requirements.txt
+# If using GNOME (Common on Fedora/Ubuntu):
+sudo dnf install nautilus  # Or apt install nautilus on Debian/Ubuntu
+```
+## 💻 Run Command
+```
+python3 whois_interactive_gui.py
+```
