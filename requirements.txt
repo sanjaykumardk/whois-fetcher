@@ -1,0 +1,5 @@
+# List of libraries required for the WHOIS Fetcher GUI application.
+python-whois
+Pillow==10.1.0 # Added as a common dependency for robust Tkinter/Ttk usage, especially in packaging.
+# NOTE: Tkinter (and the built-in 'csv' and 'threading' modules)
+# are part of the standard Python library and do not need to be listed here.
